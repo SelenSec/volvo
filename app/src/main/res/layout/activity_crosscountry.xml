@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/crosscountryscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".crosscountry">
+
+    <ImageView
+        android:id="@+id/v60cc"
+        android:layout_width="385dp"
+        android:layout_height="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084"
+        app:srcCompat="@mipmap/vmcc" />
+
+    <TextView
+        android:id="@+id/v60crosscountry"
+        android:layout_width="214dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:text="V60"
+        android:textAlignment="center"
+        android:textColor="#F4F0F0"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v60cc" />
+
+    <ImageView
+        android:id="@+id/v40cc"
+        android:layout_width="361dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/v60crosscountry"
+        app:layout_constraintStart_toStartOf="@+id/v60crosscountry"
+        app:layout_constraintTop_toBottomOf="@+id/v60crosscountry"
+        app:srcCompat="@mipmap/vscc" />
+
+    <TextView
+        android:id="@+id/v40crosscountry"
+        android:layout_width="221dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="8dp"
+        android:text="V40"
+        android:textAlignment="center"
+        android:textColor="#FBF8F8"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v40cc" />
+
+    <Button
+        android:id="@+id/buttongeri4"
+        android:layout_width="144dp"
+        android:layout_height="86dp"
+        android:text="GERİ"
+        android:textColor="#C3BABA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#777575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
